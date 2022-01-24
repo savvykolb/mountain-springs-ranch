@@ -16,7 +16,11 @@ function NavTabs({ currentPage, handlePageChange }) {
                         >
                             Home</a></li>
 
-                        <li class="dropdown"><a href="#"><span>About </span> <i class="fas fa-chevron-down" style={{fontWeight: "1px"}}> </i></a>
+                        <li class="dropdown"><a 
+                        href="#about"
+                        class="active, nav-link"
+                        onClick={() => handlePageChange('About')}
+                        className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}><span>About </span> <i class="fas fa-chevron-down" style={{fontWeight: "1px"}}> </i></a>
                             <ul>
                                 <li><a 
                                 href="#about"
