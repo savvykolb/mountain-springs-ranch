@@ -1,11 +1,10 @@
+import NavTabs from "./components/NavBar";
 
 
 function App() {
   return (
     <div>
-      <h1>CONTENT WILL BE COMING</h1>
-
-      <h3>DEVELOPING NOW!!</h3>
+      <NavTabs />
     </div>
   );
 }
