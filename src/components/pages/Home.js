@@ -1,61 +1,57 @@
 import '../style/style.css';
-import slide1 from '../img/slide/slide-1.jpg'
+import 'bootstrap/dist/css/bootstrap.css';
+import Carousel from 'react-bootstrap/Carousel';
 
-function Home() {
-    return (
-        <section id="hero">
-        <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
-    
-          <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-    
-          <div class="carousel-inner" role="listbox">
-    
-            {/* <!-- Slide 1 --> */}
-            <div class="carousel-item active" style={{background: {slide1}}}>
-              <div class="carousel-container">
-                <div class="container">
-                  <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Sailor</span></h2>
-                  <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                  <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-                </div>
-              </div>
+function Home({ currentPage, handlePageChange }) {
+  const slide2 = require('../img/slide/slide-2.jpg');
+  const slide1 = require('../img/slide/slide-1.jpg');
+  const slide3 = require('../img/slide/slide-3.jpg');
+
+  return (
+    <section id="hero">
+      <Carousel>
+        <Carousel.Item interval={3500}>
+
+          {/* <!-- Slide 1 --> */}
+          <img className="d-block w-100" src={slide2}
+            alt="Mountain Springs Ranch" />
+          <Carousel.Caption>
+            <div class="container">
+              <h2 >Mountain Springs Ranch</h2>
+              <p>The Cyrus family has been the home to the rare barkless basenji dogs & to registered Thoroughbred, Quarter, and Paint horses for over 40 years. We are located in Southern California, Riverside County, in the mountains near Palm Springs/Temecula/Hemet.</p>
             </div>
-    
-            {/* <!-- Slide 2 --> */}
-            <div class="carousel-item" style={{background: {slide1}}}>
-              <div class="carousel-container">
-                <div class="container">
-                  <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-                  <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                  <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-                </div>
-              </div>
+          </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item interval={3500}>
+
+          {/* <!-- Slide 2 --> */}
+          <img className="d-block w-100" src={slide1}
+            alt="Basenji Pups" />
+          <Carousel.Caption>
+            <div class="container">
+              <h2 >Basenji Puppies</h2>
+              <p>Beautiful Barkless Basenji Dogs, but they still can yodel and sing. We believe them to be the perfect dog for children and adults of all ages. For most families, these puppies become more like another family member than a dog.</p>
             </div>
-    
-            {/* <!-- Slide 3 --> */}
-            <div class="carousel-item" style={{background: {slide1}}}>
-              <div class="carousel-container">
-                <div class="container">
-                  <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-                  <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                  <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
-                </div>
-              </div>
+          </Carousel.Caption>
+          </Carousel.Item>
+
+             {/* <!-- Slide 3 --> */}
+             <Carousel.Item interval={3500}>
+             <img className="d-block w-100" src={slide3}
+            alt="Basenji Pups" />
+          <Carousel.Caption>
+            <div class="container">
+              <h2 >Why Our Pups?</h2>
+              <p>We have been breeding basenji dogs and horses for over 40 years in this location. They are raised on a large acreage with clean air and spring water. Our dog parents are Fanconi and PRA tested, and our puppies have all the necessary up-to-date shots upon pick-up.</p>
             </div>
-    
-          </div>
-    
-          <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-          </a>
-    
-          <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-          </a>
-    
-        </div>
-      </section>
-    );
+          </Carousel.Caption>
+          </Carousel.Item>
+
+      </Carousel>
+
+    </section >
+  );
 }
 
 export default Home;

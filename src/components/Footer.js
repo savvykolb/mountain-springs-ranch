@@ -4,10 +4,10 @@ import './style/style.css';
 // import {FaLinkedin, FaGithub} from 'react-icons/fa'
 
 function Footer() {
-    return (
-      <footer id="footer">
+  return (
+    <footer id="footer">
       <div class="container">
-      {/* <div class="social-links">
+        {/* <div class="social-links">
           <a target='_blank' rel="noreferrer" href="tel:336-707-0007" class="phoneNumber"><BsPhone /></a>
           <a target='_blank' rel="noreferrer" href="mailto:savannahnkolb@gmail.com" class="email"><BsFillEnvelopeOpenFill /></a>
           <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/savannah-kolb-11a128208/"class="linkedin"><FaLinkedin /></a>
@@ -18,7 +18,7 @@ function Footer() {
         </div>
       </div>
     </footer>
-    );
-  }
+  );
+}
 
-  export default Footer;
+export default Footer;
