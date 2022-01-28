@@ -10,34 +10,34 @@ function Home({ currentPage, handlePageChange }) {
   return (
     <section id="hero">
       <Carousel>
-        <Carousel.Item interval={3500}>
+        <Carousel.Item interval={4000}>
 
           {/* <!-- Slide 1 --> */}
           <img className="d-block w-100" src={slide2}
             alt="Mountain Springs Ranch" />
           <Carousel.Caption>
             <div class="container">
-              <h2 >Mountain Springs Ranch</h2>
+              <h2>Mountain Springs Ranch</h2>
               <p>The Cyrus family has been the home to the rare barkless basenji dogs & to registered Thoroughbred, Quarter, and Paint horses for over 40 years. We are located in Southern California, Riverside County, in the mountains near Palm Springs/Temecula/Hemet.</p>
             </div>
           </Carousel.Caption>
           </Carousel.Item>
 
-          <Carousel.Item interval={3500}>
+          <Carousel.Item interval={4000}>
 
           {/* <!-- Slide 2 --> */}
-          <img className="d-block w-100" src={slide1}
+          <img className="d-block w-100 h-100" src={slide1}
             alt="Basenji Pups" />
           <Carousel.Caption>
             <div class="container">
-              <h2 >Basenji Puppies</h2>
+              <h2>Basenji Puppies</h2>
               <p>Beautiful Barkless Basenji Dogs, but they still can yodel and sing. We believe them to be the perfect dog for children and adults of all ages. For most families, these puppies become more like another family member than a dog.</p>
             </div>
           </Carousel.Caption>
           </Carousel.Item>
 
              {/* <!-- Slide 3 --> */}
-             <Carousel.Item interval={3500}>
+             <Carousel.Item interval={4000}>
              <img className="d-block w-100" src={slide3}
             alt="Basenji Pups" />
           <Carousel.Caption>
