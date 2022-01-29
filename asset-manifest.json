@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/mountain-springs-ranch/static/css/main.1f9741ff.css",
-    "main.js": "/mountain-springs-ranch/static/js/main.6277dcc0.js",
+    "main.css": "/mountain-springs-ranch/static/css/main.5376e4a2.css",
+    "main.js": "/mountain-springs-ranch/static/js/main.9e27f4e8.js",
     "static/media/slide-2.jpg": "/mountain-springs-ranch/static/media/slide-2.3c57eff1367d31989bdb.jpg",
     "static/media/slide-3.jpg": "/mountain-springs-ranch/static/media/slide-3.22c34f880300ff5865b3.jpg",
+    "static/media/cyrus.jpg": "/mountain-springs-ranch/static/media/cyrus.dc19732bfe2b68c6eeeb.jpg",
     "static/media/slide-1.jpg": "/mountain-springs-ranch/static/media/slide-1.b66d4aa24f42f1906317.jpg",
     "index.html": "/mountain-springs-ranch/index.html",
-    "main.1f9741ff.css.map": "/mountain-springs-ranch/static/css/main.1f9741ff.css.map",
-    "main.6277dcc0.js.map": "/mountain-springs-ranch/static/js/main.6277dcc0.js.map"
+    "main.5376e4a2.css.map": "/mountain-springs-ranch/static/css/main.5376e4a2.css.map",
+    "main.9e27f4e8.js.map": "/mountain-springs-ranch/static/js/main.9e27f4e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f9741ff.css",
-    "static/js/main.6277dcc0.js"
+    "static/css/main.5376e4a2.css",
+    "static/js/main.9e27f4e8.js"
   ]
 }
