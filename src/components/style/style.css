@@ -338,28 +338,10 @@ section {
   text-transform: uppercase;
   text-shadow: 3px 3px 6px rgba(131, 173, 131, 0.863);
 }
-.about .content h3 {
-  font-weight: 500;
-  line-height: 32px;
-  font-size: 24px;
-}
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-.about .content ul li {
-  padding: 10px 0 0 28px;
-  position: relative;
-}
-.about .content ul i {
-  left: 0;
-  top: 7px;
-  position: absolute;
-  font-size: 20px;
-  color: #d9232d;
-}
-.about .content p:last-child {
-  margin-bottom: 0;
+.about .content h5 {
+  /* font-weight: 500; */
+  line-height: 24px;
+  font-size: 16px;
 }
 
 .about .content {

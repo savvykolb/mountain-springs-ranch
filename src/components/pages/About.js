@@ -13,12 +13,15 @@ function About() {
                     <div class="col-lg-6 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
                         <div class="content d-flex flex-column justify-content-center">
                             <h2>The Cyrus Family</h2>
-                            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave</h3>
-                            <p>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum
-                            </p>
+                            <h5>
+                                Mountain Springs Ranch has been our home for over 40 years. Originally from Palos Verdes, it was our dream to live on a ranch and raise animals to share the joy and happiness that animals can bring to other people. We made the move over 40 years ago and started our dream. We have breeding dogs and horses here ever since. 
+                            </h5>
+                            <h5>
+                            Over the years, we have provided thousands of people with their beloved pets. We have made the choice to not show our dogs, but they have been shown by others with great success. 
+                            </h5>
+                            <h5>
+                                Along with raising Basenji dogs and a variety of horses, we have had the blessing of raising our 4 children, 9 grandchildren, and 2 great-grandchildren on this ranch.
+                            </h5>
                         </div>
                     </div>
                 </div>
