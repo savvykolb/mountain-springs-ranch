@@ -8,6 +8,10 @@ function PastPup() {
 
         <section id="portfolio" class="portfolio">
             <div className="container">
+                <h4 className="d-flex justify-content-center">
+                    These are just a few of past and present puppies. You can arrange a time and date to come visit any available puppies. 
+                </h4>
+                <br></br>
 
               {puppies.map((puppy, index) => (
                     <div key={index}>
