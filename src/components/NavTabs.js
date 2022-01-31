@@ -1,5 +1,6 @@
 import './style/style.css'
 
+
 function NavTabs({ currentPage, handlePageChange }) {
     return (
         <header id="header" class="fixed-top d-flex align-items-center">
@@ -31,7 +32,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                                 href="#basenji"
                             class="active, nav-link"
                             onClick={() => handlePageChange('Basenji')}
-                            className={currentPage === 'Basenji' ? 'nav-link active' : 'nav-link'}>Basenjis</a></li>
+                            className={currentPage === 'Basenji' ? 'nav-link active' : 'nav-link'}>About Basenjis</a></li>
                                 <li><a 
                                 href="#testimonials"
                                 class="active, nav-link"
