@@ -277,12 +277,12 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content h2 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 48px;
   line-height: 60px;
   margin-bottom: 20px;
   text-transform: uppercase;
-  text-shadow: 3px 3px 6px rgba(131, 173, 131, 0.863);
+  text-shadow: 2px 2px 4px rgba(131, 173, 131, 0.863);
 }
 .about .content h5 {
   /* font-weight: 500; */
@@ -432,9 +432,7 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .testimonials-carousel, .testimonials .testimonials-slider {
-  overflow: hidden;
-}
+
 .testimonials .testimonial-item {
   box-sizing: content-box;
   padding: 40px;
@@ -442,44 +440,26 @@ section {
   position: relative;
   background: #fff;
 }
-.testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50px;
-  border: 6px solid #fff;
-  float: left;
-  margin: 0 10px 0 0;
+
+.container .title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(131, 173, 131, 0.863);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
-.testimonials .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #111;
-}
-.testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #999;
-  margin: 0;
-}
-.icon {
-  color: #f8d1d3;
-  font-size: 26px;
-}
-.testimonials .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-.testimonials .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-}
+
 .testimonials .testimonial-item p {
   font-style: italic;
+  font-family: RaleWay;
   margin: 15px 0 0 0;
   padding: 0;
 }
+
 
 
 
