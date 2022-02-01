@@ -34,10 +34,10 @@ function NavTabs({ currentPage, handlePageChange }) {
                             onClick={() => handlePageChange('Basenji')}
                             className={currentPage === 'Basenji' ? 'nav-link active' : 'nav-link'}>About Basenjis</a></li>
                                 <li><a 
-                                href="#testimonials"
+                                href="#testimonial"
                                 class="active, nav-link"
-                                onClick={() => handlePageChange('Testimonials')}
-                                className={currentPage === 'Testimonials' ? 'nav-link active' : 'nav-link'}>Testimonials</a></li>
+                                onClick={() => handlePageChange('Testimonial')}
+                                className={currentPage === 'Testimonial' ? 'nav-link active' : 'nav-link'}>Testimonials</a></li>
                             </ul>
                         </li>
                         <li><a 
