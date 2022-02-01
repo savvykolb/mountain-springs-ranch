@@ -20,7 +20,7 @@ function PastPup() {
                                 <div className="portfolio-wrap">
                                     <img className="img-fluid" alt="Puppy" src= {puppy.image} />
                                     <div className="portfolio-info">
-                                        <h4>{puppy.year}</h4>
+                                        <h2>{puppy.year}</h2>
                                     </div>
                                 </div>
                             </div>
