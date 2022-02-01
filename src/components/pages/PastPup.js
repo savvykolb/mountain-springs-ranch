@@ -14,7 +14,7 @@ function PastPup() {
                 <Container>
                     <Row >
                         {puppies.map((puppy, index) => (
-                            <Col className="portfolio" key={index} xs={12} md={4} lg={3}>
+                            <Col className="portfolio" key={index} xs={12} md={5} lg={4}>
                                 <Card className="portfolio-wrap">
                                     <Card.Img className="img" src={puppy.image} />
                                     <Card.Body className="portfolio-info">
