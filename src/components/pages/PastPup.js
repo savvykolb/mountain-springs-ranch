@@ -7,9 +7,10 @@ function PastPup() {
     return (
         <section id="portfolio" class="portfolio">
             <div className="container">
-                <h4 className="d-flex justify-content-center">
-                    These are just a few of the past and present puppies. You can arrange a time and date to come visit any available puppies.
+                <h4 className="d-flex">
+                    These are just a few of the pictures and puppies, both past and present. For more information on current available puppies, please contact us. We always welcome future families to arrange a time and date to come visit and play with any available puppies.
                 </h4>
+                <h6 style={{display: 'flex',  justifyContent:'center', alignItems:'center',}}>Covid Restrictions may apply</h6>
                 <br></br>
                 <Container>
                     <Row >
@@ -18,7 +19,7 @@ function PastPup() {
                                 <Card className="portfolio-wrap">
                                     <Card.Img className="img" src={puppy.image} />
                                     <Card.Body className="portfolio-info">
-                                        <Card.Title>{puppy.year}</Card.Title>
+                                        <Card.Title style={{fontWeight: 600, fontSize: 35, fontFamily: "RaleWay", color: "white"}}>{puppy.year}</Card.Title>
                                     </Card.Body>
                                 </Card>
                             </Col>
