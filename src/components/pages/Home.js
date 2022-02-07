@@ -6,6 +6,8 @@ function Home({ currentPage, handlePageChange }) {
   const slide2 = require('../img/slide/slide-2.jpg');
   const slide1 = require('../img/slide/slide-1.jpg');
   const slide3 = require('../img/slide/slide-3.jpg');
+  const slide4 = require('../img/slide/slide-4.jpg');
+
 
   return (
     <section id="hero">
@@ -13,7 +15,7 @@ function Home({ currentPage, handlePageChange }) {
         <Carousel.Item interval={4000}>
 
           {/* <!-- Slide 1 --> */}
-          <img className="d-block w-100" src={slide2}
+          <img src={slide2}
             alt="Mountain Springs Ranch" />
           <Carousel.Caption>
             <div class="container">
@@ -23,10 +25,9 @@ function Home({ currentPage, handlePageChange }) {
           </Carousel.Caption>
           </Carousel.Item>
 
+  {/* <!-- Slide 2 --> */}
           <Carousel.Item interval={4000}>
-
-          {/* <!-- Slide 2 --> */}
-          <img className="d-block w-100 h-100" src={slide1}
+          <img src={slide3}
             alt="Basenji Pups" />
           <Carousel.Caption>
             <div class="container">
@@ -38,7 +39,7 @@ function Home({ currentPage, handlePageChange }) {
 
              {/* <!-- Slide 3 --> */}
              <Carousel.Item interval={4000}>
-             <img className="d-block w-100" src={slide3}
+             <img src={slide4}
             alt="Basenji Pups" />
           <Carousel.Caption>
             <div class="container">
@@ -47,6 +48,18 @@ function Home({ currentPage, handlePageChange }) {
             </div>
           </Carousel.Caption>
           </Carousel.Item>
+
+           {/* <!-- Slide 4 --> */}
+           {/* <Carousel.Item interval={4000}>
+             <img src={slide1}
+            alt="Basenji Pups" />
+          <Carousel.Caption>
+            <div class="container">
+              <h2 >Slide 4</h2>
+              <p> Pricing? How to reserve? Timeframe?</p>
+            </div>
+          </Carousel.Caption>
+          </Carousel.Item> */}
 
       </Carousel>
 
