@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e1b85cdf.css",
-    "main.js": "/static/js/main.12c0e256.js",
+    "main.css": "/static/css/main.191fa8d1.css",
+    "main.js": "/static/js/main.9dbc94d2.js",
     "static/media/slide-2.jpg": "/static/media/slide-2.3c57eff1367d31989bdb.jpg",
     "static/media/slide-3.jpg": "/static/media/slide-3.22c34f880300ff5865b3.jpg",
     "static/media/cyrus.jpg": "/static/media/cyrus.dc19732bfe2b68c6eeeb.jpg",
+    "static/media/slide-4.jpg": "/static/media/slide-4.5d62b66ece5fcb572015.jpg",
+    "static/media/slide-1.jpg": "/static/media/slide-1.ab9be12e45c5353a7d12.jpg",
     "static/media/basenji-pg.jpeg": "/static/media/basenji-pg.32ebf9adc35336c90d59.jpeg",
-    "static/media/slide-1.jpg": "/static/media/slide-1.b66d4aa24f42f1906317.jpg",
     "index.html": "/index.html",
-    "main.e1b85cdf.css.map": "/static/css/main.e1b85cdf.css.map",
-    "main.12c0e256.js.map": "/static/js/main.12c0e256.js.map"
+    "main.191fa8d1.css.map": "/static/css/main.191fa8d1.css.map",
+    "main.9dbc94d2.js.map": "/static/js/main.9dbc94d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1b85cdf.css",
-    "static/js/main.12c0e256.js"
+    "static/css/main.191fa8d1.css",
+    "static/js/main.9dbc94d2.js"
   ]
 }
