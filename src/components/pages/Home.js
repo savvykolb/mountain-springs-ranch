@@ -12,9 +12,9 @@ function Home({ currentPage, handlePageChange }) {
   return (
     <section id="hero">
       <Carousel>
-        <Carousel.Item interval={4000}>
 
-          {/* <!-- Slide 1 --> */}
+        {/* <!-- Slide 1 --> */}
+        <Carousel.Item interval={3800}>
           <img src={slide2}
             alt="Mountain Springs Ranch" />
           <Carousel.Caption>
@@ -23,10 +23,10 @@ function Home({ currentPage, handlePageChange }) {
               <p>The Cyrus family has been the home to the rare barkless basenji dogs & to registered Thoroughbred, Quarter, and Paint horses for over 40 years. We are located in Southern California, Riverside County, in the mountains near Palm Springs/Temecula/Hemet.</p>
             </div>
           </Carousel.Caption>
-          </Carousel.Item>
+        </Carousel.Item>
 
-  {/* <!-- Slide 2 --> */}
-          <Carousel.Item interval={4000}>
+        {/* <!-- Slide 2 --> */}
+        <Carousel.Item interval={3800}>
           <img src={slide3}
             alt="Basenji Pups" />
           <Carousel.Caption>
@@ -35,11 +35,11 @@ function Home({ currentPage, handlePageChange }) {
               <p>Beautiful Barkless Basenji Dogs, but they still can yodel and sing. We believe them to be the perfect dog for children and adults of all ages. For most families, these puppies become more like another family member than a dog.</p>
             </div>
           </Carousel.Caption>
-          </Carousel.Item>
+        </Carousel.Item>
 
-             {/* <!-- Slide 3 --> */}
-             <Carousel.Item interval={4000}>
-             <img src={slide4}
+        {/* <!-- Slide 3 --> */}
+        <Carousel.Item interval={3800}>
+          <img id="img4" src={slide4}
             alt="Basenji Pups" />
           <Carousel.Caption>
             <div class="container">
@@ -47,10 +47,10 @@ function Home({ currentPage, handlePageChange }) {
               <p>We have been breeding basenji dogs and horses for over 40 years in this location. They are raised on a large acreage with clean air and spring water. Our dog parents are Fanconi and PRA tested, and our puppies have all the necessary up-to-date shots upon pick-up.</p>
             </div>
           </Carousel.Caption>
-          </Carousel.Item>
+        </Carousel.Item>
 
-           {/* <!-- Slide 4 --> */}
-           {/* <Carousel.Item interval={4000}>
+        {/* <!-- Slide 4 --> */}
+        {/* <Carousel.Item interval={4000}>
              <img src={slide1}
             alt="Basenji Pups" />
           <Carousel.Caption>

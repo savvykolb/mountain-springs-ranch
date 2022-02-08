@@ -4,9 +4,10 @@ import './style/style.css'
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-        <Navbar sticky="top" bg="light" expand="lg">
+        <Navbar class="navbar" sticky="top" bg="light" expand="lg">
             <Container>
                 <Navbar.Brand href="#home"
+                id="brand"
                     class="active, nav-link"
                     onClick={() => handlePageChange('Home')}
                     className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
@@ -14,13 +15,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className="me-auto justify-content-end" id="basic-navbar-nav">
-                        <Nav.Link href="#home"
-                            class="active, nav-link"
-                            onClick={() => handlePageChange('Home')}
-                            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
-                            Home
-                        </Nav.Link>
-                        <NavDropdown title="About" id="basic-nav-dropdown">
+                        <NavDropdown title="About" id="basic-nav-dropdown" className="dropdown">
                             <NavDropdown.Item href="#about"
                                 class="active, nav-link"
                                 onClick={() => handlePageChange('About')}
@@ -40,7 +35,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                                 Testimonials
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <NavDropdown title="Puppies" id="basic-nav-dropdown">
+                        <NavDropdown title="Puppies" id="basic-nav-dropdown" className="dropdown">
                             <NavDropdown.Item href="#currentPup"
                                 class="active, nav-link"
                                 onClick={() => handlePageChange('CurrentPup')}
