@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function Home({ currentPage, handlePageChange }) {
   const slide2 = require('../img/slide/slide-2.jpg');
-  const slide1 = require('../img/slide/slide-1.jpg');
+  //const slide1 = require('../img/slide/slide-1.jpg');
   const slide3 = require('../img/slide/slide-3.jpg');
   const slide4 = require('../img/slide/slide-4.jpg');
 

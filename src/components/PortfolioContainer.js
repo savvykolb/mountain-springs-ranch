@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import PastPup from './pages/PastPup';
 import Testimonial from './pages/Testimonial'
+import CurrentPup from './pages/CurrentPup';
 
 
 export default function PortfolioContainer() {
@@ -28,6 +29,9 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'PastPup') {
       return <PastPup />;
+    }
+    if (currentPage === 'CurrentPup') {
+      return <CurrentPup />;
     }
     return <Contact />;
   };

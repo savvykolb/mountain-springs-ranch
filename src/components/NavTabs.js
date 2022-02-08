@@ -1,61 +1,68 @@
+import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 import './style/style.css'
 
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-        <header id="header" class="fixed-top d-flex align-items-center">
-            <div class="container d-flex align-items-center">
-
-                <h1 class="logo me-auto">Mountain Springs Ranch</h1>
-                <nav id="navbar" class="navbar">
-                    <ul>
-                        <li><a
-                            href="#home"
+        <Navbar sticky="top" bg="light" expand="lg">
+            <Container>
+                <Navbar.Brand href="#home"
+                    class="active, nav-link"
+                    onClick={() => handlePageChange('Home')}
+                    className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
+                    Mountain Springs Ranch
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse className="me-auto justify-content-end" id="basic-navbar-nav">
+                        <Nav.Link href="#home"
                             class="active, nav-link"
                             onClick={() => handlePageChange('Home')}
-                            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-                        >
-                            Home</a></li>
-
-                        <li class="dropdown"><a 
-                        href="#about"
-                        class="active, nav-link"
-                        onClick={() => handlePageChange('About')}
-                        className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}><span>About </span> <i class="fas fa-chevron-down" style={{fontWeight: "1px"}}> </i></a>
-                            <ul>
-                                <li><a 
-                                href="#about"
+                            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>
+                            Home
+                        </Nav.Link>
+                        <NavDropdown title="About" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="#about"
                                 class="active, nav-link"
                                 onClick={() => handlePageChange('About')}
-                                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About Us</a></li>
-                                <li><a 
-                                href="#basenji"
-                            class="active, nav-link"
-                            onClick={() => handlePageChange('Basenji')}
-                            className={currentPage === 'Basenji' ? 'nav-link active' : 'nav-link'}>About Basenjis</a></li>
-                                <li><a 
-                                href="#testimonial"
+                                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
+                                About
+                            </NavDropdown.Item>
+                            <NavDropdown.Item href="#basenji"
+                                class="active, nav-link"
+                                onClick={() => handlePageChange('Basenji')}
+                                className={currentPage === 'Basenji' ? 'nav-link active' : 'nav-link'}>
+                                About Basenjis
+                            </NavDropdown.Item>
+                            <NavDropdown.Item href="#testimonial"
                                 class="active, nav-link"
                                 onClick={() => handlePageChange('Testimonial')}
-                                className={currentPage === 'Testimonial' ? 'nav-link active' : 'nav-link'}>Testimonials</a></li>
-                            </ul>
-                        </li>
-                        <li><a 
-                        href="#pastPup"
-                        class="active, nav-link"
-                        onClick={() => handlePageChange('PastPup')}
-                        className={currentPage === 'PastPup' ? 'nav-link active' : 'nav-link'}>Past Puppies</a></li>
-                       <li><a 
-                       href="#contact"
+                                className={currentPage === 'Testimonial' ? 'nav-link active' : 'nav-link'}>
+                                Testimonials
+                            </NavDropdown.Item>
+                        </NavDropdown>
+                        <NavDropdown title="Puppies" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="#currentPup"
+                                class="active, nav-link"
+                                onClick={() => handlePageChange('CurrentPup')}
+                                className={currentPage === 'CurrentPup' ? 'nav-link active' : 'nav-link'}>
+                                Available Puppies
+                            </NavDropdown.Item>
+                            <NavDropdown.Item href="#pastPup"
+                                class="active, nav-link"
+                                onClick={() => handlePageChange('PastPup')}
+                                className={currentPage === 'PastPup' ? 'nav-link active' : 'nav-link'}>
+                                Past Puppies
+                            </NavDropdown.Item>
+                        </NavDropdown>
+                        <Nav.Link href="#contact"
                        class="active, nav-link"
                        onClick={() => handlePageChange('Contact')}
-                       className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a></li>
-                    </ul>
-                    <i class="bi bi-list mobile-nav-toggle"></i>
-                </nav>
-            </div>
-        </header>
-
+                       className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>
+                           Contact
+                       </Nav.Link>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     )
 }
 
