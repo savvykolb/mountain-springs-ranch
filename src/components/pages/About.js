@@ -3,7 +3,7 @@ import '../style/style.css';
 function About() {
     const cyrus = require('../img/cyrus.jpg');
     return (
-        <section id="about" class="about">
+        <section class="about">
             <div class="container">
 
                 <div class="row content">

@@ -40,7 +40,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                                 class="active, nav-link"
                                 onClick={() => handlePageChange('CurrentPup')}
                                 className={currentPage === 'CurrentPup' ? 'nav-link active' : 'nav-link'}>
-                                Available Puppies
+                                Current Puppies
                             </NavDropdown.Item>
                             <NavDropdown.Item href="#pastPup"
                                 class="active, nav-link"

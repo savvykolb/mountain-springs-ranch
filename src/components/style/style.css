@@ -1,5 +1,8 @@
 /* # General */
+html {
 
+  background-color: #f8f9fa;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -18,12 +21,17 @@ a:hover {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
+h4
+{
   font-family: "Raleway", sans-serif;
+  
 }
 
+h5,
+h6,
+p {
+  font-family: "Open Sans", sans-serif;
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -60,6 +68,13 @@ h6 {
 #brand {
   font-size: 26px;
   font-family: "Raleway", sans-serif;
+  text-shadow: 1px 1px 2px rgba(131, 173, 131, 0.863);
+}
+
+.nav-link.active.dropdown-item {
+  color: forestgreen;
+  text-decoration: none;
+  background-color: #fff;
 }
 
 @media (max-width: 480px) {
@@ -79,7 +94,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 87vh;
   background-color: rgba(63, 73, 83, 0.8);
   overflow: hidden;
   position: relative;
@@ -114,14 +129,14 @@ h6 {
   overflow: hidden !important;
 }
 
-
-
 #hero h2 {
   color: #fff;
   margin-bottom: 20px;
   font-size: 58px;
   font-weight: 700;
   font-family: "Raleway", sans-serif;
+
+  text-shadow: 1px 1px 2px rgba(131, 173, 131, 0.863);
 }
 #hero p {
   margin: 0 auto 30px auto;
@@ -129,6 +144,7 @@ h6 {
   font-size: 20px;
   font-weight: 4500;
   font-family: "Open Sans", sans-serif;
+  text-shadow: .5px .5px 1px rgba(131, 173, 131, 0.863);
 }
 
 @media (max-width: 992px) {
@@ -140,6 +156,9 @@ h6 {
   }
 }
 @media (max-width: 768px) {
+  #hero {
+    height:86vh;
+  }
   #hero h2 {
     font-size: 28px;
   }
@@ -165,40 +184,9 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 130px 0;
+  padding: 60px 0;
   overflow: hidden;
   background-color: #f8f9fa;
-}
-.section-title {
-  padding-bottom: 40px;
-}
-.section-title h2 {
-  font-size: 14px;
-  font-weight: 500;
-  padding: 0;
-  line-height: 1px;
-  margin: 0 0 5px 0;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
-}
-.section-title h2::after {
-  content: "";
-  width: 120px;
-  height: 1px;
-  display: inline-block;
-  background: #e6636a;
-  margin: 4px 10px;
-}
-.section-title p {
-  margin: 0;
-  margin: 0;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #556270;
 }
 
 /*--------------------------------------------------------------
@@ -209,17 +197,14 @@ section {
   font-size: 48px;
   line-height: 60px;
   margin-bottom: 20px;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 4px rgba(131, 173, 131, 0.863);
+  text-shadow: 1px 1px 2px rgba(131, 173, 131, 0.863);
 }
 .about .content h5 {
-  /* font-weight: 500; */
   line-height: 24px;
   font-size: 18px;
 }
 
 .about .content {
-  padding: 30px 0;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -246,7 +231,7 @@ section {
   margin-top: 3%;
 }
 
-#basenji {
+#basenji-pic {
   margin-top: 10%;
 }
 
@@ -258,6 +243,10 @@ section {
     max-width: 80%;
     margin-top: 10%;
   }
+
+  .about .content {
+    text-align: center;
+  }
 }
 
 @media (max-width: 667px) {
@@ -268,7 +257,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# Past Pup
 --------------------------------------------------------------*/
 .portfolio {
   margin-bottom: 30px;
@@ -316,42 +305,15 @@ section {
 }
 
 .portfolio .portfolio-wrap:hover::before {
-  opacity: 1;
+  opacity: .5;
 }
 
 .portfolio .portfolio-wrap:hover img {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
-}
-
-/*--------------------------------------------------------------
-# Frequently Asked Questions
---------------------------------------------------------------*/
-.faq .faq-item {
-  margin: 20px 0;
-  padding: 20px 0;
-  border-bottom: 1px solid white;
-}
-.faq .faq-item i {
-  color: #dee2e6;
-  font-size: 20px;
-  float: left;
-  line-height: 0;
-  padding: 13px 0 0 0;
-  margin: 0;
-}
-.faq .faq-item h4 {
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 500;
-  margin: 0 0 10px 28px;
-  font-family: "Poppins", sans-serif;
-}
-.faq .faq-item p {
-  font-size: 15px;
 }
 
 /*--------------------------------------------------------------
@@ -371,16 +333,18 @@ section {
   font-size: 48px;
   line-height: 60px;
   margin-bottom: 20px;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 4px rgba(131, 173, 131, 0.863);
+  text-shadow: 1px 1px 2px rgba(131, 173, 131, 0.863);
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
+.container h5 {
+  font-family: "Open Sans", sans-serif;
+}
 .testimonials .testimonial-item p {
   font-style: italic;
-  font-family: RaleWay;
+  font-family: "Open Sans", sans-serif;
   margin: 15px 0 0 0;
   padding: 0;
 }
@@ -396,7 +360,6 @@ section {
 .social-links a {
   font-size: 34px;
   display: inline-block;
-  background: #fff;
   color: forestgreen;
   line-height: 0;
   padding: 16px 0;
@@ -414,6 +377,13 @@ section {
   color: #fff;
 }
 
+
+@media (max-width: 991px) {
+  .info {
+    text-align: center;
+  }
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -426,4 +396,18 @@ section {
 
 #footer .copyright {
   text-align: center;
+}
+
+#footer .copyright a{
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #444444;
+  padding: 0;
+}
+
+#footer .copyright a:hover {
+  color: forestgreen;
+  text-decoration: none;
 }

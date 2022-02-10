@@ -3,12 +3,12 @@ import '../style/style.css';
 function Basenji() {
     const basenji = require('../img/basenji/basenji-pg.jpeg');
     return (
-        <section id="about" class="about">
+        <section class="about">
             <div class="container">
 
                 <div class="row content">
                     <div class="col-lg-4">
-                        <img id="basenji" class="image d-flex align-items-stretch justify-content-center justify-content-lg-start" src={basenji} alt="Basenji Puppies" />
+                        <img id="basenji-pic" class="image d-flex align-items-stretch justify-content-center justify-content-lg-start" src={basenji} alt="Basenji Puppies" />
                     </div>
                     <div class="col-lg-8 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
                         <div class="content d-flex flex-column justify-content-center">
