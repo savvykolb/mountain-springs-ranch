@@ -367,12 +367,12 @@ section {
   border: 1px solid forestgreen;
 }
 
-.social-links a:hover {
+.card:hover a {
   background: forestgreen;
   color: #fff;
 }
 
-.col:hover {
+.card:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
 
