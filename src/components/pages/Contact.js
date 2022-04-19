@@ -1,5 +1,5 @@
 import '../style/style.css';
-import { BsEnvelopeOpen, BsPhone, BsPinMap  } from "react-icons/bs"
+import { BsEnvelopeOpen, BsPhone, BsPinMap } from "react-icons/bs"
 import { Card, Row, Col, Container } from "react-bootstrap";
 
 
@@ -18,46 +18,46 @@ function Contact() {
                     <br></br>
                     <br></br>
                     <Container className="social-links">
-                    <Row xs={1} md={3} className="g-4" >
-                        <Col>
-                        <Card className="phone">
-                            <Card.Body>
-                            <a target='_blank' rel="noreferrer" href="tel:951-763-4672" class="phoneNumber"><BsPhone /></a>
-                            </Card.Body>
-                            <Card.Text>
-                                <h4 class="font-weight-medium">Phone</h4>
-                                <h6>+1 951-763-4672 </h6>
-                            </Card.Text>
-                        </Card>
-                        </Col>
-                        <Col>
-                        <Card className="email">
-                            <Card.Body>
-                            <a target='_blank' rel="noreferrer" href="mailto:msr2@earthlink.net" class="email"><BsEnvelopeOpen /></a>
-                            </Card.Body>
-                            <Card.Text>
-                            <h4 class="font-weight-medium">Email</h4>
-                                    <h6>
-                                       msr2@earthlink.net
-                                    </h6>
-                            </Card.Text>
-                        </Card>
-                        </Col>
+                        <Row xs={1} md={3} className="g-4" >
+                            <Col>
+                                <Card className="phone">
+                                    <Card.Body>
+                                        <a target='_blank' rel="noreferrer" href="tel:951-763-4672" class="phoneNumber"><BsPhone /></a>
+                                    </Card.Body>
+                                    <Card.Text>
+                                        <h4 class="font-weight-medium">Phone</h4>
+                                        <h6>+1 951-763-4672 </h6>
+                                    </Card.Text>
+                                </Card>
+                            </Col>
+                            <Col>
+                                <Card className="email">
+                                    <Card.Body>
+                                        <a target='_blank' rel="noreferrer" href="mailto:msr2@earthlink.net" class="email"><BsEnvelopeOpen /></a>
+                                    </Card.Body>
+                                    <Card.Text>
+                                        <h4 class="font-weight-medium">Email</h4>
+                                        <h6>
+                                            msr2@earthlink.net
+                                        </h6>
+                                    </Card.Text>
+                                </Card>
+                            </Col>
 
-                        <Col>
-                        <Card className="location">
-                            <Card.Body>
-                            <a target='_blank' rel="noreferrer" href="https://maps.google.com/?q=33.555267,-116.674179" ><BsPinMap /></a>
-                            </Card.Body>
-                            <Card.Text>
-                            <h4 class="font-weight-medium">Location</h4>
-                                    <h6>
-                                        Anza, CA
-                                    </h6>
-                            </Card.Text>
-                        </Card>
-                        </Col>
-                                    {/* <a target='_blank' rel="noreferrer" href="tel:951-763-4672" class="phoneNumber"><BsPhone /></a>
+                            <Col>
+                                <Card className="location">
+                                    <Card.Body>
+                                        <a target='_blank' rel="noreferrer" href="https://maps.google.com/?q=33.555267,-116.674179" ><BsPinMap /></a>
+                                    </Card.Body>
+                                    <Card.Text>
+                                        <h4 class="font-weight-medium">Location</h4>
+                                        <h6>
+                                            Anza, CA
+                                        </h6>
+                                    </Card.Text>
+                                </Card>
+                            </Col>
+                            {/* <a target='_blank' rel="noreferrer" href="tel:951-763-4672" class="phoneNumber"><BsPhone /></a>
                             
                                 <div class="">
                                     <h4 class="font-weight-medium">Phone</h4>

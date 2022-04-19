@@ -1,6 +1,46 @@
-export const pastPuppies= [
+export const pastPuppies = [
     // ~*~*~*~~*~*~ 2020 Dogs ~*~*~*~*~*~*~*~
+    {
+        year: 'Jan 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1643725911/MSR/MSR2022/pup11_hszmps.jpg'
+    },
+    {
+        year: 'Jan 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1643725910/MSR/MSR2022/pup10_bsxguy.jpg'
+    },
+    {
+        year: 'Jan 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1643725910/MSR/MSR2022/pup3_oktoyh.jpg'
+    },
+    {
+        year: 'Jan 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1643725910/MSR/MSR2022/pup5_yzlu47.jpg'
+    },
+    {
+        year: 'Jan 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1643725910/MSR/MSR2022/pup4_raqsal.jpg'
+    },
+    {
+        year: 'Jan 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1643725910/MSR/MSR2022/pup9_utr7fj.jpg'
+    },
+    {
+        year: 'Jan 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1643725910/MSR/MSR2022/pup8_jgmpfv.jpg'
+    },
+    {
+        year: 'Jan 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1643725911/MSR/MSR2022/pup14_g0wls8.jpg'
+    },
+    {
+        year: 'Jan 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1643725911/MSR/MSR2022/pup13_eehctw.jpg'
+    },
 
+    {
+        year: 'Jan 2022',
+        image: "https://res.cloudinary.com/dtk7zh09m/image/upload/v1643725911/MSR/MSR2022/pup12_etfakz.jpg"
+    },
     {
         year: '2021',
         image: "https://res.cloudinary.com/dtk7zh09m/image/upload/v1643665388/MSR/pup3_jmg11e.jpg"
@@ -17,7 +57,7 @@ export const pastPuppies= [
         year: '2021',
         image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1643725686/MSR/pup9_ptiv6m.jpg'
     },
-  
+
     {
         year: '2021',
         image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1643725661/MSR/pup5_d7ba4l.jpg'
@@ -73,7 +113,7 @@ export const pastPuppies= [
         year: 'Through the Years',
         image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1643726019/MSR/2010/pup4_mdpiyl.jpg'
     },
- 
+
     {
         year: 'Through the Years',
         image: "https://res.cloudinary.com/dtk7zh09m/image/upload/v1643726019/MSR/2010/pup3_b0g8od.jpg"
@@ -86,5 +126,5 @@ export const pastPuppies= [
         year: 'Through the Years',
         image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1643726019/MSR/2010/pup2_knzqgn.jpg'
     },
- 
+
 ]

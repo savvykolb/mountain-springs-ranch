@@ -1,6 +1,5 @@
 /* # General */
 html {
-
   background-color: #f8f9fa;
 }
 body {
@@ -21,10 +20,8 @@ a:hover {
 h1,
 h2,
 h3,
-h4
-{
+h4 {
   font-family: "Raleway", sans-serif;
-  
 }
 
 h5,
@@ -125,7 +122,7 @@ p {
 }
 
 #hero .carousel-item {
-	transition: transform 1s linear;
+  transition: transform 1s linear;
   overflow: hidden !important;
 }
 
@@ -144,7 +141,7 @@ p {
   font-size: 20px;
   font-weight: 4500;
   font-family: "Open Sans", sans-serif;
-  text-shadow: .5px .5px 1px rgba(131, 173, 131, 0.863);
+  text-shadow: 0.5px 0.5px 1px rgba(131, 173, 131, 0.863);
 }
 
 @media (max-width: 992px) {
@@ -157,7 +154,7 @@ p {
 }
 @media (max-width: 768px) {
   #hero {
-    height:86vh;
+    height: 86vh;
   }
   #hero h2 {
     font-size: 28px;
@@ -171,14 +168,12 @@ p {
   #hero .carousel-control-next {
     width: 5%;
   }
-  
 }
 @media (max-height: 500px) {
   #hero {
     height: 120vh;
   }
 }
-
 
 /*--------------------------------------------------------------
 # Sections General
@@ -305,7 +300,7 @@ section {
 }
 
 .portfolio .portfolio-wrap:hover::before {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .portfolio .portfolio-wrap:hover img {
@@ -377,6 +372,9 @@ section {
   color: #fff;
 }
 
+.col:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
 
 @media (max-width: 991px) {
   .info {
@@ -398,7 +396,7 @@ section {
   text-align: center;
 }
 
-#footer .copyright a{
+#footer .copyright a {
   display: inline-block;
   text-align: center;
   text-decoration: none;
