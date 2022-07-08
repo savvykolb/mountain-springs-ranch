@@ -23,7 +23,7 @@ function CurrentPup() {
                                     <Card.Img src={puppy.image} />
                                     <Card.Body className="portfolio-info">
                                         <Card.Title style={{ fontWeight: 600, fontSize: 35, fontFamily: "RaleWay", color: "white" }}>{puppy.year}</Card.Title>
-                                        <Card.Title style={{ fontWeight: 600, fontSize: 25, fontFamily: "RaleWay", color: "white" }}>{puppy.sex}</Card.Title>
+                                        {/* <Card.Title style={{ fontWeight: 600, fontSize: 25, fontFamily: "RaleWay", color: "white" }}>{puppy.sex}</Card.Title> */}
                                     </Card.Body>
                                 </Card>
                             </Col>

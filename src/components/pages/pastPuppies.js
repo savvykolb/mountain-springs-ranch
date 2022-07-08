@@ -1,5 +1,22 @@
 export const pastPuppies = [
     // ~*~*~*~~*~*~ 2020 Dogs ~*~*~*~*~*~*~*~
+
+    {
+        year: 'April 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1650406711/MSR/MSR2022/20220417_173043_wxj6ti.jpg'
+    },
+    {
+        year: 'April 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1650406711/MSR/MSR2022/20220417_173039_hc8j8q.jpg'
+    },
+    {
+        year: 'April 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1650406711/MSR/MSR2022/20220417_173013_q5ctie.jpg'
+    },
+    {
+        year: 'April 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1650406709/MSR/MSR2022/20220417_173041_lei4k1.jpg'
+    },
     {
         year: 'Jan 2022',
         image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1643725911/MSR/MSR2022/pup11_hszmps.jpg'

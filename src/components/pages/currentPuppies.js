@@ -5,37 +5,33 @@ export const currentPuppies = [
     // ~*~*~*~~*~*~ 2022 Dogs ~*~*~*~*~*~*~*~
 
     {
-        year: 'April 2022',
-        sex: 'males',
-        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1650406711/MSR/MSR2022/20220417_173043_wxj6ti.jpg'
+        year: 'July 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1657283776/MSR/pup15_e9tqq6.jpg'
     },
     {
-        year: 'April 2022',
-        sex: 'males',
-        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1650406711/MSR/MSR2022/20220417_173039_hc8j8q.jpg'
+        year: 'July 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1657283776/MSR/pup16_yo393b.jpg'
     },
     {
-        year: 'April 2022',
-        sex: 'male',
-        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1650406711/MSR/MSR2022/20220417_173013_q5ctie.jpg'
+        year: 'July 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1657283776/MSR/pup17_gu6odf.jpg'
     },
     {
-        year: 'April 2022',
-        sex: 'males',
-        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1650406709/MSR/MSR2022/20220417_173041_lei4k1.jpg'
+        year: 'July 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1657283776/MSR/pup18_k7puxk.jpg'
     },
-    // {
-    //     year: 'Jan 2022',
-    //     image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1643725910/MSR/MSR2022/pup4_raqsal.jpg'
-    // },
-    // {
-    //     year: 'Jan 2022',
-    //     image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1643725910/MSR/MSR2022/pup9_utr7fj.jpg'
-    // },
-    // {
-    //     year: 'Jan 2022',
-    //     image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1643725910/MSR/MSR2022/pup8_jgmpfv.jpg'
-    // },
+    {
+        year: 'July 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1657283776/MSR/pup19_p6pb2k.jpg'
+    },
+    {
+        year: 'July 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1657283776/MSR/pup20_bnz4i9.jpg'
+    },
+    {
+        year: 'July 2022',
+        image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1657283777/MSR/pup21_ibacsh.jpg'
+    },
     // {
     //     year: 'Jan 2022',
     //     image: 'https://res.cloudinary.com/dtk7zh09m/image/upload/v1643725911/MSR/MSR2022/pup14_g0wls8.jpg'
