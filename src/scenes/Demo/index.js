@@ -158,7 +158,7 @@ function Demo() {
                     </li>
                     <li>
                         <div className="holder">
-                            <img src="/assets/images/mockups/pup16.jpg" alt="Mockup" />
+                            <img src="/assets/images/mockups/pup16.jpeg" alt="Mockup" />
                         </div>
                     </li>
                 </ul>
