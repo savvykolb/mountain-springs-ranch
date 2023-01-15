@@ -188,7 +188,7 @@ function Demo() {
 
             {/* ~*~*~*~*~*~ Background Image ~*~*~*~* */}
             <div className="theme-preview-empty overlay-color">
-                <div className="bg-image overlay-image" style={{ backgroundImage: `url(/assets/images/demo/IMG_2039.jpg)` }}></div>
+                <div className="bg-image overlay-image" style={{ backgroundImage: `url(/assets/images/demo/IMG_2039.jpeg)` }}></div>
                 <span className="bg-color bg-dark-60"></span>
                 <div className="display-spacing"></div>
             </div>
